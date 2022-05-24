@@ -6,20 +6,37 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '',
+      name: 'things i learned',
       repo: '',
       loadSidebar: true,
       coverpage: false,
-      loadNavbar: true
+      loadNavbar: true,
+      auto2top: true,
+      search: [
+          "/", // => /README.md
+          "/flutter", 
+          "/javascript",
+        ],
+
+        search: {
+          maxAge: 10000, // Expiration time, the default one day
+          paths: 'auto', // [] or 'auto'
+          placeholder: "Search",
+          noData: "Not found",
+          // Headline depth, 1 - 6
+          depth: 3,
+        },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 </body>
 </html>
