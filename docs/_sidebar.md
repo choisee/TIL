@@ -1,10 +1,10 @@
 - Flutter
 
-  - [Cascade notation(...)](flutter/20220524.md)
+  - [cascade notation(...)](flutter/20220524.md)
 
-  - [Logger library](flutter/20220525.md)
+  - [logger library](flutter/20220525.md)
 
-  - [WidgetsBindingObserver 앱 라이프 사이클 구독](flutter/20220526.md)
+  - [widgetsBindingObserver 앱 라이프 사이클 구독](flutter/20220526.md)
 
 - CSS
 
@@ -15,3 +15,7 @@
 - React
 
 - Typescript
+
+- Design
+
+  - [event handler (옵저버 패턴)](design/20220530.md)
