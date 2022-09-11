@@ -24,9 +24,14 @@
 
 - Javascript
 
-  - [ES2021](javascript/20220623.md)
+  - [ES](javascript/20220623.md)
 
 - React
+
+
+- NextJS
+
+  - [nextjs redirect pages](nextjs/20220911.md)
 
 - Typescript
 
